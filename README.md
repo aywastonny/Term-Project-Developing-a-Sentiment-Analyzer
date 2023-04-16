@@ -7,14 +7,17 @@ To use this app, simply enter a piece of text (a review) into the provided textb
 
 # Dependencies
 This app requires the following dependencies:
-
 gradio
 scikit-learn
-Installation
-To install the required dependencies, you can use the following command:
 
+#How it Works
+The model processes the input text by converting it into a vector using a pre-trained vectorizer. The resulting vector is then fed into an SVM model which predicts the sentiment of the text as either positive or negative.
+
+# Installation
+To install the required dependencies, you can use the following command:
 pip install gradio scikit-learn
-Launching the App
+
+# Launching the App
 To launch the app, simply run the following command:
 
 python app.py
